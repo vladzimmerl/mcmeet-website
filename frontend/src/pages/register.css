@@ -1,0 +1,26 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+
+.register h1 {
+    color: var(--0);
+    margin-bottom: 2rem;
+}
+
+.register button {
+    margin-top: 1rem;
+}

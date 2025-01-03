@@ -1,0 +1,43 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .logged-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--2);
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+.navbar .logged-out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--2);
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+.navbar a {
+    padding: 1rem;
+    color: var(--3);
+}
+
+.navbar .active {
+    background-color: var(--4);
+    color: var(--2);
+}
+
+.navbar img {
+    height: 2.1rem;
+}
+
+.navbar .logo {
+    padding: 0.5rem;
+}

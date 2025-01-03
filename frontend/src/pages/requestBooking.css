@@ -1,0 +1,35 @@
+.request-booking {
+    padding: 1rem;
+}
+
+.request-booking .time-range {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin: 1rem;
+}
+
+.request-booking h1 {
+    color: var(--0);
+}
+
+.request-booking h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.request-booking .sub {
+    margin-top: 1rem;
+}
+
+.request-booking .times {
+    display: flex;
+    justify-content: space-around;
+}
+
+.request-booking .err {
+    margin-top: 0.5rem;
+    color: var(--0);
+}

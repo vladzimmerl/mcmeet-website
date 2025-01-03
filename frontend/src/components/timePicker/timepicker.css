@@ -1,0 +1,17 @@
+.time-picker {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.time-picker select {
+    border-radius: 0;
+    border: 1px solid #333;
+    background: none;
+    padding: 0.3rem;
+}
+
+.time-picker select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

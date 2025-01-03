@@ -1,0 +1,81 @@
+.create-booking {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.create-booking h1 {
+    color: var(--0);
+}
+
+.create-booking h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.create-booking h3 {
+    margin-bottom: 0.5rem;
+}
+
+.create-booking select {
+    border-radius: 0;
+    border: 1px solid #333;
+    background: none;
+    padding: 0.3rem;
+}
+
+.create-booking button {
+    margin-top: 2rem;
+}
+
+.create-booking .date-range {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.create-booking .input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-booking .time-picker-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.create-booking .time-picker-container-disabled {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.create-booking .check-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.create-booking .check-container .day {
+    flex: 1;
+}
+
+.create-booking .check-container .day-disabled {
+    flex: 1;
+    opacity: 0.5;
+}
+
+.create-booking .check-container .daily-time-range {
+    flex: 10;
+}
+
+.create-booking .err {
+    color: var(--0);
+    margin-top:0.5rem;
+}

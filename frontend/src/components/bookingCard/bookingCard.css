@@ -1,0 +1,39 @@
+.booking-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--2);
+    padding: 0.5rem;
+}
+
+.booking-card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.booking-card h2 {
+    color: var(--2);
+    margin-bottom: 0.5rem;
+} 
+
+.booking-card .property {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.booking-card .property-label {
+    color: var(--1);
+}
+
+.booking-card button {
+    display: flex;
+    padding: 0;
+    font-size: 2rem;
+    background: none;
+}
+
+.booking-card .trash:hover {
+    fill: var(--0);
+}
