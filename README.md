@@ -7,18 +7,6 @@ Link: https://mcmeet.vladzimmerl.com
 ## Description: 
 McMeet is a web application that lets members create one-time or recurring meetings, that other members, or non-members can register to attend.
 
-## Instructions to Run the Application
-
-1. ssh into our group's remote (mern) account (group 17)
-
-2. cd into ~/COMP307Project/frontend and run 'npm start'
-
-3. create another session in separate terminal, and ssh into the remote once again from there
-
-4. cd into ~/COMP307Project/backend and run 'npm start' so both processes run side by side
-
-5. access the website (on a mcgill wifi/vpn): http://fall2024-comp307-group17.cs.mcgill.ca:3000
-
 ## Features:
 
 ### Create Booking: 
